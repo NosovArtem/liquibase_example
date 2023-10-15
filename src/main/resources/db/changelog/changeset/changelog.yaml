@@ -1,0 +1,31 @@
+databaseChangeLog:
+  - changeSet:
+      id: 2023-10-02-create-passport-table
+      author: nosov-ao
+      changes:
+        - sqlFile:
+            path: 2023-10-02-create-passport-table.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 2023-10-02-create-group-table
+      author: nosov-ao
+      changes:
+        - sqlFile:
+            path: 2023-10-02-create-group-table.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: create-users-table
+      author: nosov-ao
+      changes:
+        - sqlFile:
+            path: 2023-09-22-create-users-table.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 2023-10-02-create-car-table
+      author: nosov-ao
+      changes:
+        - sqlFile:
+            path: 2023-10-02-create-car-table.sql
+            relativeToChangelogFile: true
+
+
